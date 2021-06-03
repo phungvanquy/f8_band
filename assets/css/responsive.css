@@ -11,6 +11,10 @@
         width: 100%;
     }
 
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
     #header{
         overflow: hidden;
         position: fixed;
@@ -58,6 +62,12 @@
     #content .member-img{
         width: 60%;
     }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+
+
 
 
 
