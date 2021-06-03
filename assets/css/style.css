@@ -86,7 +86,6 @@ html{
     top:0;
     width: 100%;
     z-index: 999;
-
 }
 
 #nav{
@@ -155,18 +154,26 @@ html{
     font-size: 14px;
 }
 
+#header .mobile-menu-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn{
     float: right;
     /* height: 46px; */
     padding: 0 21px;
 }
-
+#header .mobile-menu-btn:hover,
 #header .search-btn:hover {
     background-color: red;
     cursor: pointer;
 }
 
-
+#header .menu-icon,
 #header .search-icon{
     color: white;
     font-size: 20px;
@@ -225,8 +232,11 @@ html{
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
-    margin: 0 auto
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 #content .about-text{
     margin-top: 25px;
@@ -287,7 +297,7 @@ html{
 }
 
 .places-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 
