@@ -3,10 +3,36 @@
 
 }
 
+
+/* Tablet && Mobile */
+
+@media (max-width: 1023px){
+
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .socials {
+        font-size: 34px;
+    }
+
+    #footer .socials a {
+        margin: 0px 8px;
+    }
+
+    #footer .copyrigh a {
+        padding: 13px 0;
+        display: inline-block;
+    }
+}
 /* Mobile */
 @media (max-width: 740px) {
 
 
+   .s-full-width,
     .s-col-full{
         width: 100%;
     }
@@ -66,12 +92,6 @@
     .contact-form{
         margin-top: 16px;
     }
-
-
-
-
-
-
 
 }
 
